@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BBL_groupExcecution]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="BBL_UsingTestNG.loginWithNewpwdDeleteTheBnfry_test">
+        <methods>
+          <include name="addbnfry"/>
+        </methods>
+      </class> <!-- BBL_UsingTestNG.loginWithNewpwdDeleteTheBnfry_test -->
+      <class name="BBL_UsingTestNG.AddBnfryWithValidDetails">
+        <methods>
+          <include name="addbnfry"/>
+        </methods>
+      </class> <!-- BBL_UsingTestNG.AddBnfryWithValidDetails -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [BBL_groupExcecution] -->
