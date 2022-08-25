@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BBL_UsingTestNG.AddBnfryWithValidDetailsTest">
+      <class name="BBL_UsingTestNG.LogInAsStaffAndViewTheCustomerByAccNoTest">
         <methods>
           <include name="configAC"/>
           <include name="configBC"/>
+          <include name="addbnfry"/>
           <include name="connct_DB"/>
           <include name="configAM"/>
-          <include name="addbnfry"/>
           <include name="configBM"/>
         </methods>
-      </class> <!-- BBL_UsingTestNG.AddBnfryWithValidDetailsTest -->
+      </class> <!-- BBL_UsingTestNG.LogInAsStaffAndViewTheCustomerByAccNoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
